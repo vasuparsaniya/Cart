@@ -34,9 +34,8 @@ const port = process.env.PORT || 5000;
 // });
 // app.use(cors());
 app.use(express.json());
-app.get("/", function (req, res) {
-  res.send("hi");
-});
+
+
 
 app.post("/login", (req, res) => {
   const mail = req.body.mail;
