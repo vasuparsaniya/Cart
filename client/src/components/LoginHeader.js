@@ -40,6 +40,8 @@ export default function LoginHeader() {
         display: "flex",
         justifyContent: "space-between",
         width: "100vw",
+        margin: "auto" , 
+        marginTop:"0" 
       }}
     >
       <div
